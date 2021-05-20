@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>St. Edward the Confessor Redirect</title>
+
+<script type="text/javascript">
+window.onload=function() {
+function countdown() {
+if ( typeof countdown.counter == 'undefined' ) {
+    countdown.counter = 15; // Initial count in seconds.
+    }
+if(countdown.counter > 30) {
+	document.getElementById('count').innerHTML = countdown.counter--;
+    setTimeout(countdown, 1000);
+    }
+else {
+    location.href = 'https://stedwardtheconfessorno.archtoronto.org/'; // The URL to redirect to once countdown ends.
+    }
+}
+countdown();
+};
+</script>
+
+</head>
+<body>
+
+<div style="display: block; margin: 0px auto; text-align: center;">
+<!-- Name of parish site should go below - change as needed. -->
+<h1><u>ST. EDWARD THE CONFESSOR PARISH, NORTH YORK</u></h1>
+<!-- Text regarding that site has moved and user will be relocated. -->
+<h2>Greetings! Our website has recently moved to another location and you will be automatically re-directed to it in <span id="count"></span> seconds.</h3>
+<h2>NOTE: Be sure to update your existing bookmarks once you arrive for quicker access next time</h2>
+</p>
+<!-- Change link below to new URL so that users can click to navigate themselves without waiting if desired. -->
+<h4>( You can also click <a href="https://stedwardtheconfessorno.archtoronto.org/">HERE<a/> if you don't wish to wait for re-direction)<h4>
+</div>
+</body>
+</html>
